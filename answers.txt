@@ -1,0 +1,10 @@
+Question1 What is a gitignore file and what should it include for a Java project?
+ gitignore file specifies intentionally untracked files that Git should ignore. For example in firebase the json Code file should be added to this as anyone with the code can access this and add changes to the databasse.
+
+
+• What does fast-forward in Git mean?
+Git does a fast forward when you merge a branch that is ahead of your checked-out branch.Fast-Forward in git means that a pull/rebase was able to update directly to the new revision without having to perform any merges. 
+• Why should you have different branches?
+Because diffent people can work on diffent branches and can later merge while solving any discrepancies.
+• In a project how many remote Git repositories do you usually have?
+You can have as many remotes as you want, but you can only have one remote named "origin". The remote called "origin" is not special in any way, except that it is the default remote created by Git when you clone an existing repository.
